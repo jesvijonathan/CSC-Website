@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #373838;
+}
+.s0 {
+  /* background-image: url("./img/couch.jpg");
+  background-size: cover; */
+  background-color: #373838;
+}
+
+.s1 {
+  /* background-image: url("./img/couch.jpg");
+  background-size: cover; */
+  background-color: #373838;
+}
+.section h1 {
+  font-size: 42px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  /* background: linear-gradient(to left, #ffffff, #808080); */
+  background-color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s0 h1 {
+  font-weight: bolder;
+  font-size: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.svg1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  opacity: 1;
+  fill: white;
+}
+.svg2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  opacity: 1;
+  animation: intro 1s ease-in-out;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.curtain {
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-color: #373838;
+  animation: intro1 0.5s ease-in-out;
+}
+
+@keyframes intro1 {
+  0% {
+    opacity: 1;
+    left: 50%;
+  }
+  30% {
+    opacity: 1;
+    left: 50%;
+  }
+  100% {
+    opacity: 0;
+    left: 90%;
+  }
+}
+
+.s2 {
+  background: linear-gradient(
+    to left top,
+    rgb(189, 193, 199),
+    rgb(151, 234, 255)
+  );
+}
+.s2 h1 {
+  font-size: 48px;
+  background: linear-gradient(to left, #404042, #373838);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s3 {
+  background: linear-gradient(
+    to left top,
+    rgb(189, 193, 199),
+    rgb(160, 48, 48)
+  );
+}
+.s3 h1 {
+  font-size: 48px;
+  background: linear-gradient(to left, #404042, #373838);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chair {
+  height: 60%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  margin-top: 20%;
+  width: 50%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+.description p {
+  margin: 50px 0px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white;
+}
+
