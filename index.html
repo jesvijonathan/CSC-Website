@@ -13,6 +13,7 @@
     
     <link rel="stylesheet" href="./style.css" />
     <link rel="js" href="./index.js" />
+    
 
     <title>Christhava Sangam Church</title>
   </head>
@@ -32,11 +33,24 @@
     
                 if (myElement.classList.contains("open")) {
                   myElement.classList.remove("open");
+    
+                  document.querySelector(".cover").style.opacity = "0";
+                  document.querySelector(".cover").style.zIndex = "-1";
+                  
+                  document.querySelector(".cover").style.backdropFilter = "blur(0px)";
                 } else {
                   myElement.classList.add("open");
+                  
+                  document.querySelector(".cover").style.opacity = "1";
+                  document.querySelector(".cover").style.zIndex ="4";
+                  document.querySelector(".cover").style.backdropFilter = "blur(7px)";
                 }
               }
             </script>
+            <script
+            type="text/javascript"
+            src="./lanimation.js"
+          ></script>
           </div>
           <div class="logo">
             <svg
