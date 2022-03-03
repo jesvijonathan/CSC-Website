@@ -27,8 +27,26 @@
             <div class="burger-lines"></div>
     
             <script>
+
+            window.addEventListener("mouseup", function (event) {
+
+              var box = document.querySelector(".nav-item");
+              var box1 = document.querySelector("#invi");
+ 
+              if (event.target == box || event.target.parentNode == box) {
+
+                burger()
+              }
+              if (event.target == box1 || event.target.parentNode == box1) {
+
+burger()
+}
+            });
+
               function burger() {
+
                 var myElement = document.querySelector("#burger_menu");
+
                 var myCover = document.querySelector("#cover");
                 var myinvi = document.querySelector("#invi");
     
@@ -36,22 +54,14 @@
                   myElement.classList.remove("open");
                   myCover.classList.remove("cover-open");
                   myinvi.classList.remove("invi-open");
-                  // document.querySelector(".cover").style.opacity = "0";
-                  // document.querySelector(".cover").style.zIndex = "-1";
-                  //  document.querySelector(".cover").style.backdropFilter = "blur(0px)";
-                  
-                  
                 } else {
                   myElement.classList.add("open");
                   myCover.classList.add("cover-open");
                   myinvi.classList.add("invi-open");
-                  // document.querySelector(".cover").style.backdropFilter = "blur(5px)"; 
-                  // document.querySelector(".cover").style.opacity = "1";
-                  // document.querySelector(".cover").style.zIndex ="4";
-
                 }
               }
             </script>
+            
             <script
             type="text/javascript"
             src="./lanimation.js"
