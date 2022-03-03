@@ -131,9 +131,9 @@ html {
   position: relative;
   margin: 0;
   padding: 0;
-  min-height: 520px;
   height: 100%;
   width: 100%;
+  min-height: 520px;
 }
 .s0 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -347,13 +347,13 @@ button:hover {
     text-transform: capitalize;
     line-height: 24px;
     letter-spacing: 0.8px;
-    top: 130%;
+    top: 20vh;
     padding: 7%;
     width: 100%;
   }
   .button_con {
     position: relative;
-    top: 250px;
+    top: 30vh;
   }
   .nav-menu {
   }
@@ -393,14 +393,14 @@ button:hover {
     font-size: 3vh;
     font-weight: 500;
   }
-}
+/* }
 @media only screen and (min-width: 769px) {
   .invi {
     opacity: 1;
     z-index: -3;
     visibility: visible;
   }
-}
+} */
 
 .invi-open {
   visibility: visible;
