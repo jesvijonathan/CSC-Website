@@ -26,6 +26,11 @@ html {
   transition: 0.2s ease-in-out;
 }
 
+.cover-open {
+  opacity: 1;
+  z-index: 4;
+  backdrop-filter: blur(4px);
+}
 @keyframes disap {
   0% {
     opacity: 1;
@@ -359,7 +364,7 @@ button:hover {
     display: fixed;
     transition: 0.3s ease-in-out;
     z-index: -3;
-    margin: 2rem 0;
+    margin: 3vh 0;
     text-align: center;
   }
   .navbar {
@@ -384,6 +389,10 @@ button:hover {
     top: 0%;
     visibility: hidden;
   }
+  .nav-link {
+    font-size: 3vh;
+    font-weight: 500;
+  }
 }
 @media only screen and (min-width: 769px) {
   .invi {
@@ -391,4 +400,9 @@ button:hover {
     z-index: -3;
     visibility: visible;
   }
+}
+
+.invi-open {
+  visibility: visible;
+  opacity: 1;
 }

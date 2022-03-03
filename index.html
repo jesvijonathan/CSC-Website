@@ -29,25 +29,26 @@
             <script>
               function burger() {
                 var myElement = document.querySelector("#burger_menu");
+                var myCover = document.querySelector("#cover");
+                var myinvi = document.querySelector("#invi");
     
                 if (myElement.classList.contains("open")) {
                   myElement.classList.remove("open");
-    
-                  document.querySelector(".cover").style.opacity = "0";
-                  document.querySelector(".cover").style.zIndex = "-1";
+                  myCover.classList.remove("cover-open");
+                  myinvi.classList.remove("invi-open");
+                  // document.querySelector(".cover").style.opacity = "0";
+                  // document.querySelector(".cover").style.zIndex = "-1";
+                  //  document.querySelector(".cover").style.backdropFilter = "blur(0px)";
                   
-                  document.querySelector(".invi").style.visibility ="hidden";
-                  document.querySelector(".invi").style.opacity = "0";
                   
-                   document.querySelector(".cover").style.backdropFilter = "blur(0px)";
                 } else {
                   myElement.classList.add("open");
-                  
-                  document.querySelector(".cover").style.opacity = "1";
-                  document.querySelector(".cover").style.zIndex ="4";
-                  document.querySelector(".invi").style.visibility ="visible";
-                  document.querySelector(".invi").style.opacity = "1"
-                   document.querySelector(".cover").style.backdropFilter = "blur(5px)";
+                  myCover.classList.add("cover-open");
+                  myinvi.classList.add("invi-open");
+                  // document.querySelector(".cover").style.backdropFilter = "blur(5px)"; 
+                  // document.querySelector(".cover").style.opacity = "1";
+                  // document.querySelector(".cover").style.zIndex ="4";
+
                 }
               }
             </script>
@@ -70,7 +71,7 @@
           </div>
   
           <ul class="nav-menu">
-            <div class="invi">
+            <div class="invi" id="invi">
             <li class="nav-item">
               <a href="#secl" class="nav-link">About</a>
               <div class="nbox"></div>
@@ -95,7 +96,7 @@
           </ul> 
     </header>
 
-    <div class="cover">
+    <div class="cover" id="cover">
       <svg
         class="svg1"
         viewBox="0 0 598 208"
