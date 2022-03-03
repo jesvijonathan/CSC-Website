@@ -19,7 +19,7 @@ body {
   animation: disap 2.1s ease-in;
 
   z-index: -1;
-  backdrop-filter: blur(0px);
+  backdrop-filter: none;
   transition: 0.2s ease-in-out;
 }
 
@@ -122,12 +122,14 @@ body {
 .section {
   height: 100%;
   width: 100%;
+  min-height: 520px;
   position: absolute;
   margin: 0;
   padding: 0;
 }
 .s0 {
-  background-image: url("https://gerssonedinbaro.com/wp-content/uploads/2020/07/GE-Slider-1.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://t3.ftcdn.net/jpg/03/58/22/06/360_F_358220623_49FTfZOho1zMu4HWjnTrayPmjhQNV3jP.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -284,7 +286,7 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 270%;
+  top: 122%;
 }
 
 button:hover {
@@ -316,15 +318,25 @@ button:hover {
     flex-wrap: wrap;
     text-align: center;
   }
-  .button_con {
-    top: 190%;
-  }
-  .title {
-    line-height: 42px;
 
-    margin-top: 2.3em;
+  .title {
+    margin-top: 8%;
   }
   .descripttion {
+    position: absolute;
+    color: #ffffffcc;
+    font-family: "SF Pro Text Heavy", Sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    top: 130%;
+    padding: 7%;
     width: 100%;
+  }
+  .button_con {
+    position: relative;
+    top: 250px;
   }
 }
