@@ -22,7 +22,6 @@
     <header>
       
       <div class="header-container" id="header-container"> 
-        <div class="blur1"></div>
         <nav class="navbar">
           <div class="burger burger-slip" id="burger_menu" onclick="burger()">
             <div class="burger-lines"></div>
@@ -37,13 +36,18 @@
                   document.querySelector(".cover").style.opacity = "0";
                   document.querySelector(".cover").style.zIndex = "-1";
                   
-                  // document.querySelector(".cover").style.backdropFilter = "blur(0px)";
+                  document.querySelector(".invi").style.visibility ="hidden";
+                  document.querySelector(".invi").style.opacity = "0";
+                  
+                   document.querySelector(".cover").style.backdropFilter = "blur(0px)";
                 } else {
                   myElement.classList.add("open");
                   
                   document.querySelector(".cover").style.opacity = "1";
                   document.querySelector(".cover").style.zIndex ="4";
-                  // document.querySelector(".cover").style.backdropFilter = "blur(4px)";
+                  document.querySelector(".invi").style.visibility ="visible";
+                  document.querySelector(".invi").style.opacity = "1"
+                   document.querySelector(".cover").style.backdropFilter = "blur(5px)";
                 }
               }
             </script>
@@ -66,11 +70,12 @@
           </div>
   
           <ul class="nav-menu">
+            <div class="invi">
             <li class="nav-item">
               <a href="#secl" class="nav-link">About</a>
               <div class="nbox"></div>
             </li>
-            <li class="nav-item" style="z-index: 30;">
+            <li class="nav-item" >
               <a href="#sec2" class="nav-link">Service</a>
               <div class="nbox"></div>
             </li>
@@ -86,6 +91,7 @@
               <a href="#" class="nav-link">Contact</a>
               <div class="nbox"></div>
             </li>
+            </div>
           </ul> 
     </header>
 
@@ -120,5 +126,7 @@
         <button style="margin-left: 1em;">Sermons</button>
       </div>
   </div></section>
+  <section class="section s1">
+    
   </body>
 </html>
