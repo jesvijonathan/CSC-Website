@@ -144,9 +144,7 @@ html {
 }
 .s1 {
   background-color: #373838;
-}
-.logo {
-}
+} 
 .svg3 {
   height: 3.2em;
   width: 3.2em;
@@ -354,9 +352,7 @@ button:hover {
   .button_con {
     position: relative;
     top: 30vh;
-  }
-  .nav-menu {
-  }
+  } 
 
   .nav-item {
     margin-left: auto;
