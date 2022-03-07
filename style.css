@@ -399,3 +399,48 @@ button:hover {
     opacity: 1;
   }
 }
+
+.topic-img-con {
+  height: 318px;
+  width: 318px;
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 54% 46% 70% 30% / 30% 68% 32% 70%;
+  animation: morph 10s ease-in-out;
+  animation-iteration-count: infinite;
+}
+.tic1 {
+  height: 280px;
+  width: 280px;
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 58% 42% 29% 71% / 63% 58% 42% 37%;
+  animation: morph1 5s ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes morph {
+  0% {
+    border-radius: 54% 46% 70% 30% / 30% 68% 32% 70%;
+  }
+  50% {
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+  }
+  100% {
+    border-radius: 54% 46% 70% 30% / 30% 68% 32% 70%;
+  }
+}
+@keyframes morph1 {
+  0% {
+    border-radius: 58% 42% 29% 71% / 63% 58% 42% 37%;
+  }
+  50% {
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+  }
+  100% {
+    border-radius: 58% 42% 29% 71% / 63% 58% 42% 37%;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
