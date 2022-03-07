@@ -11,6 +11,7 @@ body {
 }
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 .cover {
   position: fixed;
@@ -409,6 +410,129 @@ button:hover {
   line-height: 150%;
   letter-spacing: 0.8px;
 }
+.top-pic {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  /* display: none; */
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.p1 {
+  background-image: url("./man.png");
+
+  border-radius: 100%;
+  top: -20%;
+  left: -3%;
+}
+.p2 {
+  background-image: url("./girl.png");
+  border-radius: 50%;
+  top: -22%;
+  left: -10%;
+}
+.p3 {
+  background-image: url("./boy.png");
+  border-radius: 100%;
+  top: -21%;
+  left: -3%;
+}
+
+.s5 {
+  height: 260px;
+  min-height: 260px;
+  background-color: #161616;
+}
+
+.last_pa {
+  position: absolute;
+  bottom: 0%;
+  height: 30px;
+  width: 100%;
+}
+
+.divilin {
+  border-top: 1px solid rgba(247, 247, 247, 0.774);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.socials {
+  border: 0px solid white;
+  width: fit-content;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* top: 34px; */
+  top: 32px;
+
+  position: absolute;
+  transition: 0.1s ease-in-out;
+  z-index: 0;
+}
+
+.button_social_group a {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  transition: 0.3s ease-in-out;
+  color: #fff;
+}
+.button_social_group:hover a:not(:hover) {
+  opacity: 0.4;
+}
+
+.fa {
+  transition: 0.3s ease-in-out;
+}
+.button_social_group a:hover .fa {
+  transform: rotateY(180deg);
+}
+.screen-reader-text,
+.nectar-skip-to-content:not(:focus) {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.con_l {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  margin-left: -0.8rem;
+}
+
+.jwat {
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 8px;
+  font-weight: 100;
+  padding: 7px;
+}
+.csc_l {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 900;
+  position: absolute;
+  top: 20%;
+}
+.con_lm {
+  display: flex;
+  margin: 0vw 10vw;
+}
+
 @media only screen and (max-width: 768px) {
   .burger {
     opacity: 1;
@@ -546,35 +670,4 @@ button:hover {
     padding-top: 5%;
     text-align: center;
   }
-}
-
-.top-pic {
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-repeat: no-repeat;
-  /* display: none; */
-  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
-}
-
-.p1 {
-  background-image: url("./man.png");
-
-  border-radius: 100%;
-  top: -20%;
-  left: -3%;
-}
-.p2 {
-  background-image: url("./girl.png");
-  border-radius: 50%;
-  top: -22%;
-  left: -10%;
-}
-.p3 {
-  background-image: url("./boy.png");
-  border-radius: 100%;
-  top: -21%;
-  left: -3%;
 }
