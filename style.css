@@ -316,16 +316,16 @@ button:hover {
 }
 
 .topic-img-con {
-  height: 25vw;
-  width: 25vw;
+  height: 24vw;
+  width: 24vw;
   background-color: rgba(255, 255, 255, 0.39);
   border-radius: 54% 46% 70% 30% / 30% 68% 32% 70%;
   animation: morph 10s ease-in-out;
   animation-iteration-count: infinite;
 }
 .tic1 {
-  height: 21vw;
-  width: 21vw;
+  height: 20vw;
+  width: 20vw;
   background-color: rgba(255, 255, 255, 0.39);
   border-radius: 58% 42% 29% 71% / 63% 58% 42% 37%;
   animation: morph1 5s ease-in-out;
@@ -366,9 +366,10 @@ button:hover {
 
 .topic-head {
   color: #fff;
-  font-size: 35px;
+  font-size: 3vw;
   font-weight: 700;
   text-align: center;
+  padding: 2vw;
 }
 .topic {
   display: flex;
@@ -382,7 +383,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 12em;
+  gap: 16vw;
   margin-top: 5rem;
 }
 .about {
@@ -398,10 +399,12 @@ button:hover {
   padding-top: 7vw;
   font-family: "SF Pro Text Heavy", Sans-serif;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   font-weight: 100;
   text-align: center;
   float: right;
+  line-height: 150%;
+  letter-spacing: 0.8px;
 }
 @media only screen and (max-width: 768px) {
   .burger {
