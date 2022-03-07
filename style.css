@@ -194,6 +194,9 @@ a {
   align-items: center;
   padding: 2rem 4rem;
   transition: 0.3s ease-in-out;
+  /* backdrop-filter: blur(5px);
+  background-color: #c4c4c48e;
+  position: sticky; */
 }
 .bar {
   display: block;
@@ -550,9 +553,10 @@ button:hover {
   background-size: cover;
   height: 100%;
   width: 100%;
-  border: 2px solid rgba(255, 255, 255, 0);
   position: absolute;
   background-repeat: no-repeat;
+  /* display: none; */
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
 }
 
 .p1 {
