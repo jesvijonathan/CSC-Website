@@ -544,3 +544,32 @@ button:hover {
     text-align: center;
   }
 }
+
+.top-pic {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid rgba(255, 255, 255, 0);
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.p1 {
+  background-image: url("./man.png");
+
+  top: -20%;
+}
+.p2 {
+  background-image: url("./girl.png");
+  border-radius: 50%;
+  top: -21%;
+  left: -10%;
+}
+.p3 {
+  background-image: url("./boy.png");
+  border-radius: 80%;
+  top: -21%;
+  left: -4%;
+}
