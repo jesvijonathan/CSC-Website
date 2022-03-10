@@ -596,14 +596,22 @@ button:hover {
   }
   .container_1 {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+
     flex-wrap: wrap;
     text-align: center;
+    top: 32vh;
+    width: 100%;
+    margin: 0%;
   }
 
   .title {
-    margin-top: 8%;
+    width: 80vw;
+    font-size: 28px;
+    top: 30%;
+    line-height: 8vw;
+    text-align: center;
   }
   .descripttion {
     position: absolute;
@@ -617,6 +625,7 @@ button:hover {
     top: 20vh;
     padding: 7%;
     width: 100%;
+    display: none;
   }
   .button_con {
     position: relative;
