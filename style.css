@@ -671,3 +671,53 @@ button:hover {
     text-align: center;
   }
 }
+.con_m {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  float: right;
+  margin-right: 10vw;
+  bottom: 0%;
+  height: 100%;
+}
+.links_b {
+  font-size: 10px;
+  font-weight: 100;
+  margin-top: 60px;
+}
+.links_b a {
+  margin-left: 10px;
+  margin-left: 10px;
+  color: #fff;
+}
+.bl {
+  position: absolute;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+
+  flex-direction: row-reverse;
+  width: 100%;
+
+  /* flex-direction: row;
+  left: 1%; */
+}
+.bl a {
+  padding: 10px 1px;
+  min-width: 100px;
+  margin-left: 20px;
+  border: 0px solid white;
+  background-color: #292929;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+.bl a:hover {
+  color: #fff;
+  background-color: #3a3a3a;
+}
