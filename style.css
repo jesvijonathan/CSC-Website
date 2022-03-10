@@ -138,11 +138,11 @@ html {
 }
 .s0 {
   background-color: #000000;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://t3.ftcdn.net/jpg/03/58/22/06/360_F_358220623_49FTfZOho1zMu4HWjnTrayPmjhQNV3jP.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 .s1 {
   background-color: #000000;
