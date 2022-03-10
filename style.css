@@ -612,7 +612,7 @@ button:hover {
 
     flex-wrap: wrap;
     text-align: center;
-    top: 32vh;
+    top: 31vh;
     width: 100%;
     margin: 0%;
   }
@@ -643,7 +643,7 @@ button:hover {
   }
   .button_con {
     position: relative;
-    top: 25vh;
+    top: 24vh;
   }
 
   .nav-item {
