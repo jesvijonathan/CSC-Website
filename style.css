@@ -379,6 +379,8 @@ button:hover {
   font-weight: 700;
   text-align: center;
   padding: 2vw;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 .topic {
   display: flex;
@@ -641,7 +643,7 @@ button:hover {
   }
   .button_con {
     position: relative;
-    top: 30vh;
+    top: 25vh;
   }
 
   .nav-item {
@@ -715,9 +717,8 @@ button:hover {
     font-size: 35px;
     font-weight: 700;
     text-align: center;
-    padding: 8vw;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
   }
   .topic {
     display: flex;
