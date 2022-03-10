@@ -608,10 +608,14 @@ button:hover {
 
   .title {
     width: 80vw;
-    font-size: 28px;
+    font-size: 48px;
+    font-weight: 500;
     top: 30%;
-    line-height: 8vw;
+    line-height: 12vw;
     text-align: center;
+
+    text-transform: none;
+    font-family: "Damion", cursive;
   }
   .descripttion {
     position: absolute;
