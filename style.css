@@ -469,7 +469,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   /* top: 34px; */
-  top: 10px;
+  top: 12px;
 
   position: absolute;
   transition: 0.1s ease-in-out;
@@ -482,6 +482,10 @@ button:hover {
   transition: 0.3s ease-in-out;
   color: #fff;
 }
+.button_social_group a i {
+  font-size: 1.3rem;
+}
+
 .button_social_group:hover a:not(:hover) {
   opacity: 0.4;
 }
@@ -608,14 +612,13 @@ button:hover {
 
   .title {
     width: 80vw;
-    font-size: 48px;
-    font-weight: 500;
+    font-size: 42px;
+    font-weight: 100;
     top: 30%;
-    line-height: 12vw;
+    line-height: 14vw;
     text-align: center;
-
     text-transform: none;
-    font-family: "Damion", cursive;
+    font-family: "Jockey One", sans-serif;
   }
   .descripttion {
     position: absolute;
@@ -733,6 +736,13 @@ button:hover {
     margin-left: 0%;
     padding-top: 5%;
     text-align: center;
+  }
+
+  .con_lm {
+    display: flex;
+    margin: 0vw 10vw;
+    flex-direction: column;
+    align-items: center;
   }
   .con_m {
     display: none;
