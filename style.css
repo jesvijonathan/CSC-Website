@@ -728,7 +728,7 @@ button:hover {
   }
   .ano {
     padding-top: 1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
   }
   .topic {
     display: flex;
@@ -789,7 +789,7 @@ button:hover {
   height: 50vh;
   max-height: 46vh;
   max-width: 32vw;
-  border-radius: 21px;
+  border-radius: 14px;
   border: 2px solid rgba(63, 63, 63, 0.7);
 }
 .locmi {
@@ -832,7 +832,7 @@ button:hover {
 .locao {
   /* width: 100%; */
   margin: 4vw 10vw;
-  border-radius: 25px;
+  border-radius: 18px;
   background-color: #292929;
   overflow: hidden;
 }
