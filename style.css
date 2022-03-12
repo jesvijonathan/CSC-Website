@@ -849,8 +849,31 @@ button:hover {
   position: absolute;
   bottom: 2vw;
 }
+
 .buttnex {
   display: none;
+}
+.buttnex a {
+  color: #fff;
+  font-size: larger;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+.buttnex a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.prev {
+  position: absolute;
+  left: 0px;
+  margin-left: 5vw;
+  top: 53%;
+}
+.next {
+  position: absolute;
+  right: 0px;
+  margin-right: 5vw;
+
+  top: 53%;
 }
 .fade {
   animation: fade 1.4s;
