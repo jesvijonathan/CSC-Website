@@ -938,7 +938,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    bottom: 3vw;
+    bottom: 4vw;
   }
   .dotstyle li {
     position: relative;
