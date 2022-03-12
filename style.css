@@ -930,4 +930,12 @@ button:hover {
     padding-bottom: 2vh;
     text-align: center;
   }
+  .dotstyle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 3vw;
+  }
 }
