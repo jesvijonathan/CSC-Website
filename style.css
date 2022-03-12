@@ -608,6 +608,7 @@ button:hover {
   gap: 12vw;
   color: #fff;
 
+  transition: 0.3s ease;
   width: 100%;
 }
 .locam {
@@ -893,7 +894,6 @@ button:hover {
     align-items: center;
     gap: 5vh;
     color: #fff;
-
     width: 100%;
   }
   .locam {
