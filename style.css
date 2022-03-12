@@ -601,6 +601,119 @@ button:hover {
   background-color: #3a3a3a;
 }
 
+.loca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12vw;
+  color: #fff;
+
+  width: 100%;
+}
+.locam {
+  width: 80%;
+  height: 50vh;
+  max-height: 46vh;
+  max-width: 32vw;
+  border-radius: 14px;
+  border: 2px solid rgba(63, 63, 63, 0.7);
+}
+.locmi {
+  font-size: 1vw;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 3vh;
+  padding-top: 6vh;
+}
+.locamm {
+  top: 0px;
+  /* display: flex; */
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  min-height: 20vh;
+  min-width: 10vw;
+
+  max-height: 38vh;
+  max-width: 28vw;
+}
+.locamm h3 {
+  text-align: left;
+  /* width: 100%; */
+  /* bottom: 40vh;
+  position: absolute; */
+  /* margin-right: 7vw; */
+  font-size: 24px;
+  font-size: 2vw;
+}
+.locamm h4 {
+  text-align: left;
+  /* width: 100%; */
+  top: 0vh;
+}
+.locac {
+  padding: 5vw 5vw 6vw 5vw;
+}
+.locao {
+  /* width: 100%; */
+  margin: 4vw 10vw;
+  border-radius: 18px;
+  background-color: #292929;
+  overflow: hidden;
+}
+.s2 {
+  min-height: fit-content;
+  height: fit-content;
+  background-color: #000000;
+}
+.dotstyle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 2vw;
+}
+
+.buttnex {
+  display: none;
+}
+.buttnex a {
+  color: #fff;
+  font-size: larger;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+.buttnex a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.prev {
+  position: absolute;
+  left: 0px;
+  margin-left: 5vw;
+  top: 53%;
+}
+.next {
+  position: absolute;
+  right: 0px;
+  margin-right: 5vw;
+
+  top: 53%;
+}
+.fade {
+  animation: fade 1.4s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .burger {
     opacity: 1;
@@ -773,117 +886,48 @@ button:hover {
   .topi {
     margin: inherit;
   }
-}
 
-.loca {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 12vw;
-  color: #fff;
+  .loca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12vw;
+    color: #fff;
 
-  width: 100%;
-}
-.locam {
-  width: 80%;
-  height: 50vh;
-  max-height: 46vh;
-  max-width: 32vw;
-  border-radius: 14px;
-  border: 2px solid rgba(63, 63, 63, 0.7);
-}
-.locmi {
-  font-size: 1vw;
-  font-weight: 100;
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 3vh;
-  padding-top: 6vh;
-}
-.locamm {
-  top: 0px;
-  /* display: flex; */
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  min-height: 20vh;
-  min-width: 10vw;
-
-  max-height: 38vh;
-  max-width: 28vw;
-}
-.locamm h3 {
-  text-align: left;
-  /* width: 100%; */
-  /* bottom: 40vh;
-  position: absolute; */
-  /* margin-right: 7vw; */
-  font-size: 24px;
-  font-size: 2vw;
-}
-.locamm h4 {
-  text-align: left;
-  /* width: 100%; */
-  top: 0vh;
-}
-.locac {
-  padding: 5vw 5vw 6vw 5vw;
-}
-.locao {
-  /* width: 100%; */
-  margin: 4vw 10vw;
-  border-radius: 18px;
-  background-color: #292929;
-  overflow: hidden;
-}
-.s2 {
-  min-height: fit-content;
-  height: fit-content;
-  background-color: #000000;
-}
-.dotstyle {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  bottom: 2vw;
-}
-
-.buttnex {
-  display: none;
-}
-.buttnex a {
-  color: #fff;
-  font-size: larger;
-  font-weight: 700;
-  transition: 0.2s ease;
-}
-.buttnex a:hover {
-  color: rgba(255, 255, 255, 0.7);
-}
-.prev {
-  position: absolute;
-  left: 0px;
-  margin-left: 5vw;
-  top: 53%;
-}
-.next {
-  position: absolute;
-  right: 0px;
-  margin-right: 5vw;
-
-  top: 53%;
-}
-.fade {
-  animation: fade 1.4s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0;
+    width: 100%;
   }
-  to {
-    opacity: 1;
+  .locam {
+    width: 90%;
+    height: 50vh;
+    max-height: 35vh;
+    max-width: unset;
+    border-radius: 14px;
+  }
+  .locamm {
+    top: 0px;
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 20vh;
+    min-width: 10vw;
+    max-height: 38vh;
+    max-width: unset;
+  }
+  .locamm h3 {
+    text-align: center;
+    width: 100%;
+    /* margin-right: 7vw; */
+    font-size: 2.3vh;
+  }
+  .locmi {
+    font-size: 1.4vh;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
   }
 }
