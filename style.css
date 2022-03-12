@@ -958,6 +958,9 @@ button:hover {
   .locmi {
     display: none;
   }
+  .loca {
+    gap: 3vh;
+  }
   .locamm {
     top: 0px;
     /* display: flex; */
