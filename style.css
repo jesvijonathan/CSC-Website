@@ -852,3 +852,15 @@ button:hover {
 .buttnex {
   display: none;
 }
+.fade {
+  animation: fade 1.4s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
