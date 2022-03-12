@@ -963,11 +963,6 @@ button:hover {
   }
   .locamm {
     top: 0px;
-    /* display: flex; */
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
     min-height: 0;
     /* min-width: 10vw; */
     /* max-height: 38vh; */
@@ -976,4 +971,10 @@ button:hover {
   .locamm h3 {
     padding-bottom: 1em;
   }
+}
+.s3 {
+  background-color: #000000;
+}
+.s4 {
+  background-color: #000000;
 }
