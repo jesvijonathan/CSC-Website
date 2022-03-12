@@ -920,13 +920,15 @@ button:hover {
     width: 100%;
     /* margin-right: 7vw; */
     font-size: 2.3vh;
+    /* font-size: 2.6vw; */
   }
   .locmi {
-    font-size: 1.4vh;
+    font-size: 1.3vh;
+    /* font-size: 1.2vw; */
     font-weight: 100;
     color: rgba(255, 255, 255, 0.8);
     line-height: 2vh;
-    padding-top: 2vh;
+    padding-top: 1.8vh;
     padding-bottom: 2vh;
     text-align: center;
   }
