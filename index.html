@@ -23,6 +23,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="./normalize.css" />
+		<link rel="stylesheet" type="text/css" href="./demo.css" />
+		<link rel="stylesheet" type="text/css" href="./component.css" />
+		<script src="./modernizr.min.js"></script>
+
     <title>Christhava Sangam Church</title>
   </head>
 
@@ -189,7 +194,66 @@ burger()
         </div>
         </div></div>
     </div>
-    </div></div>
+    </div>
+
+    <div class="locac"data-aos="zoom-out-down"  data-aos-duration="500">
+      <div>
+      <div class="loca">
+        <iframe class="locam" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4044026.6679794565!2d75.1707744625!3d8.178076699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f0c2dac5c171%3A0xf51b95b58ffaeea6!2sChristava%20Sangam%20Church!5e0!3m2!1sen!2sin!4v1646676166022!5m2!1sen!2sin"  allowfullscreen="" loading="lazy"></iframe>
+        <!--  -->
+        
+        <div class="locamm">
+          <h3>Christhava Sangam Church (Kuzhikod)</h3>
+          <div class="locmi"> 
+            <br>1066, Asaripallam Road, 
+            <br>Near Concordia School, 
+            <br>Nesamony Nagar, 
+            <br>Kuzhikod, Tamil Nadu 
+            <br>PIN : 629001
+          </h4>
+          </div>
+          </div></div>
+      </div>
+      </div>
+    <div class="dotstyle dotstyle-scaleup ddo">
+      <ul>
+        <li class="dot"><a href="javascript:currentSlide(1)">1 | Nagercoil</a></li>
+        <li class="dot"><a href="javascript:currentSlide(2)">2 | Kuzhikod</a></li> 
+        <li class="dot"><a href="javascript:currentSlide(3)">About</a></li> 
+      </ul>
+    </div>
+    <div class="buttnex">
+    <a class="prev" href="javascript:plusSlides(-1)">&#10094;</a>
+      <a class="next"href="javascript:plusSlides(1)">&#10095;</a>
+    </div>
+      <script> 
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n); 
+        }
+        
+        function currentSlide(n) { 
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("locac");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" current", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " current";
+        }
+        </script></div>
     <br> <br> <br>
   </section>
   <section class="section s5"> <div class="con_lm">
