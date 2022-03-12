@@ -891,7 +891,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12vw;
+    gap: 8vh;
     color: #fff;
 
     width: 100%;
