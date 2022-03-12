@@ -938,4 +938,18 @@ button:hover {
     position: absolute;
     bottom: 3vw;
   }
+  .dotstyle li {
+    position: relative;
+    /* display: block; */
+    cursor: pointer;
+    /* float: left; */
+    margin: 0 0.8vh;
+    width: 1vh;
+    height: 1vh;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
 }
