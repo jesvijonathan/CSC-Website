@@ -954,4 +954,23 @@ button:hover {
     align-self: center;
     align-items: center;
   }
+
+  .locmi {
+    display: none;
+  }
+  .locamm {
+    top: 0px;
+    /* display: flex; */
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    /* min-width: 10vw; */
+    /* max-height: 38vh; */
+    max-width: unset;
+  }
+  .locamm h3 {
+    padding-bottom: 1em;
+  }
 }
