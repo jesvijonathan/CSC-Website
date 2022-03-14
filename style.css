@@ -139,7 +139,7 @@ html {
 .s0 {
   background-color: #000000;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://t3.ftcdn.net/jpg/03/58/22/06/360_F_358220623_49FTfZOho1zMu4HWjnTrayPmjhQNV3jP.jpg");
+    url("https://ak.picdn.net/shutterstock/videos/1030162556/thumb/1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -311,6 +311,12 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+
+.button_con button {
+  padding: 5px 10px 5px 10px;
+  /* border-radius: 18px; */
+}
+
 .button_con {
   display: flex;
   position: absolute;
@@ -756,10 +762,11 @@ button:hover {
     text-transform: capitalize;
     line-height: 24px;
     letter-spacing: 0.8px;
-    top: 20vh;
+    bottom: -17vh;
     padding: 7%;
     width: 100%;
-    display: none;
+    max-width: 82vw;
+    /* display: none; */
   }
   .button_con {
     position: relative;
@@ -955,7 +962,7 @@ button:hover {
     align-items: center;
   }
 
-  .locmi {
+  /* .locmi {
     display: none;
   }
   .loca {
@@ -964,13 +971,11 @@ button:hover {
   .locamm {
     top: 0px;
     min-height: 0;
-    /* min-width: 10vw; */
-    /* max-height: 38vh; */
     max-width: unset;
   }
   .locamm h3 {
     padding-bottom: 1em;
-  }
+  } */
 }
 .s3 {
   background-color: #000000;
