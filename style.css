@@ -766,11 +766,13 @@ button:hover {
     padding: 7%;
     width: 100%;
     max-width: 82vw;
+    bottom: -20vh;
     /* display: none; */
   }
   .button_con {
     position: relative;
     top: 25vh;
+    top: 32vh;
   }
 
   .nav-item {
