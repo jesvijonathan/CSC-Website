@@ -985,4 +985,59 @@ button:hover {
 }
 .s4 {
   background-color: #000000;
+  height: fit-content;
+}
+
+.ser0 {
+  padding: 7vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+
+  height: fit-content;
+  width: 100%;
+}
+.ser1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  min-height: 500px;
+  height: fit-content;
+  width: fit-content;
+}
+.ser2 {
+  text-align: left;
+  font-size: 32px;
+  color: #fff;
+  width: 100%;
+}
+/* .ser3 {
+  height: 100%;
+}
+
+.flow0 {
+  
+}
+
+.circ {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+}
+
+.circo{
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  height: 77px;
+  width: 77px;
+  position: absolute;
+  border: 2px solid white;
+} */
+.timil {
+  width: fit-content;
+  height: fit-content;
 }
