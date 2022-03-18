@@ -1028,6 +1028,10 @@ button:hover {
 }
 */
 .circo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
 .ser3 {
   display: flex;
@@ -1038,10 +1042,17 @@ button:hover {
 .timil {
   height: 100%;
   width: 80%;
-
   margin-bottom: 12vh;
 }
 .timil1 {
-  max-width: 35vh;
-  margin-bottom: 12vw;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 12vh;
+}
+.nbn {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 12vh;
 }
