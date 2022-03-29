@@ -721,6 +721,128 @@ button:hover {
   }
 }
 
+.s3 {
+  background-color: #000000;
+}
+.s4 {
+  background-color: #000000;
+  height: fit-content;
+}
+
+.ser0 {
+  padding: 7vw;
+  padding-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+
+  height: fit-content;
+  width: 100%;
+}
+.ser1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  min-height: 500px;
+  height: fit-content;
+  width: fit-content;
+}
+.ser2 {
+  text-align: left;
+  font-size: 32px;
+  color: #fff;
+  width: 100%;
+}
+
+/*
+.flow0 {
+  
+}
+
+*/
+.circ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.circo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.ser3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.timil {
+  height: 100%;
+  width: 80%;
+  margin-bottom: 12vh;
+}
+.timil1 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 12vh;
+  margin-top: 7vh;
+}
+.nbn {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 12vh;
+}
+
+.collapsible {
+  background-color: rgba(119, 119, 119, 0);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+.active,
+.collapsible {
+  background-color: rgba(255, 255, 255, 0);
+}
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.active:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f100;
+}
+
+.sermm {
+  padding: 2vw;
+}
+
 @media only screen and (max-width: 768px) {
   .burger {
     opacity: 1;
@@ -979,126 +1101,7 @@ button:hover {
   .locamm h3 {
     padding-bottom: 1em;
   } */
-}
-.s3 {
-  background-color: #000000;
-}
-.s4 {
-  background-color: #000000;
-  height: fit-content;
-}
-
-.ser0 {
-  padding: 7vw;
-  padding-top: 5vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 500px;
-
-  height: fit-content;
-  width: 100%;
-}
-.ser1 {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  min-height: 500px;
-  height: fit-content;
-  width: fit-content;
-}
-.ser2 {
-  text-align: left;
-  font-size: 32px;
-  color: #fff;
-  width: 100%;
-}
-
-/*
-.flow0 {
-  
-}
-
-*/
-.circ {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-.circo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-.ser3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
-.timil {
-  height: 100%;
-  width: 80%;
-  margin-bottom: 12vh;
-}
-.timil1 {
-  height: 100%;
-  width: 100%;
-  margin-bottom: 12vh;
-  margin-top: 7vh;
-}
-.nbn {
-  height: 100%;
-  width: 100%;
-  color: #fff;
-  font-size: 30px;
-  margin-top: 12vh;
-}
-
-.collapsible {
-  background-color: rgba(119, 119, 119, 0);
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 30px;
-}
-
-.active,
-.collapsible:hover {
-  background-color: rgba(255, 255, 255, 1);
-}
-.active,
-.collapsible {
-  background-color: rgba(255, 255, 255, 0);
-}
-.collapsible:after {
-  content: "\002B";
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.active:after {
-  content: "\2212";
-}
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f100;
-  transition: 0.3s ease-in-out;
-}
-
-.sermm {
-  padding: 2vw;
+  .active {
+    text-align: center;
+  }
 }
