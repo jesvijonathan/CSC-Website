@@ -990,6 +990,7 @@ button:hover {
 
 .ser0 {
   padding: 7vw;
+  padding-top: 5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1071,7 +1072,7 @@ button:hover {
 
 .active,
 .collapsible:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 1);
 }
 .active,
 .collapsible {
@@ -1089,11 +1090,15 @@ button:hover {
 .active:after {
   content: "\2212";
 }
-
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f100;
+  transition: 0.3s ease-in-out;
+}
+
+.sermm {
+  padding: 2vw;
 }
