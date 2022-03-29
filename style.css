@@ -1103,5 +1103,7 @@ button:hover {
   } */
   .active {
     text-align: center;
+    background-color: #fff;
+    color: #000000;
   }
 }
