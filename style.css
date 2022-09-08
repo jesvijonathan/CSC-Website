@@ -188,6 +188,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  transform: scale(0%);
   animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
 }
 
@@ -213,7 +214,7 @@ html {
 
 @keyframes opaqTransition {
   3% {
-    transform: translateX(0);
+    transform: translateX(0) scale(110%);
   }
 
   25% {
@@ -225,7 +226,7 @@ html {
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-100%) scale(100%);
   }
 }
 
