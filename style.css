@@ -1342,8 +1342,12 @@ button:hover {
     row-gap: 28px;
   }
 
+  .con_live {
+    height: 55vh;
+  }
+
   .con_live_text {
-    transform: translate(-50%, -100%);
+    font-size: 14px;
   }
 
   .ser0 {
@@ -1352,8 +1356,12 @@ button:hover {
   }
 
   .ano0 {
-    padding-top: 9vw;
+    /* padding-top: 9vw;
 
-    padding-bottom: 7vw;
+    padding-bottom: 7vw; */
+    padding-top: 10vh;
+    padding-bottom: 0vw;
   }
 }
+
+.media_1 {}
