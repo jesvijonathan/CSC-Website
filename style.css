@@ -802,6 +802,7 @@ button:hover {
 
 .ser0 {
   padding: 7vw;
+  padding-bottom: 3vw;
   padding-top: 5vw;
   display: flex;
   flex-direction: column;
@@ -1001,6 +1002,41 @@ button:hover {
   text-align: center;
   font-size: 10px;
   color: rgba(255, 255, 255, 0.596);
+}
+
+.con_live {
+  height: 70vh;
+  max-width: 700px;
+  background-color: #3a3a3a;
+  background: url("./live.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0);
+
+}
+
+.con_live:hover+.con_live_text {
+
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
+
+.con_live_text {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -250%);
+  width: 56vw;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.7);
+  bottom: 0%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1289,7 +1325,23 @@ button:hover {
     color: #000000;
   }
 
-  .cont_card {
+  .cont_cards {
     margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 28px;
+  }
+
+  .con_live_text {
+    transform: translate(-50%, -177%);
+  }
+
+  .ser0 {
+    padding: 6vw;
+    padding-bottom: 6vw;
   }
 }
