@@ -152,13 +152,81 @@ html {
 
 .s0 {
   background-color: #000000;
+
+  /* https://gerssonedinbaro.com/wp-content/uploads/2020/07/GE-Slider-1.png 
+  https://t3.ftcdn.net/jpg/03/58/22/06/360_F_358220623_49FTfZOho1zMu4HWjnTrayPmjhQNV3jP.jpg*/
+}
+
+.card {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: -10;
+}
+
+
+
+.card_part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://ak.picdn.net/shutterstock/videos/1030162556/thumb/1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* https://gerssonedinbaro.com/wp-content/uploads/2020/07/GE-Slider-1.png 
-  https://t3.ftcdn.net/jpg/03/58/22/06/360_F_358220623_49FTfZOho1zMu4HWjnTrayPmjhQNV3jP.jpg*/
+  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+}
+
+
+.card_part.card_part-two {
+  z-index: 6;
+  background-image: url(https://img.freepik.com/premium-photo/sunset-forest-white-dove-holy-cross-jesus-christ-symbolize-death-resurrection-lov_567332-708.jpg?w=2000);
+  animation-delay: 7s;
+}
+
+.card_part.card_part-three {
+  z-index: 5;
+  background-image: url(https://media.istockphoto.com/photos/happy-man-rise-hand-on-morning-view-christian-inspire-praise-god-on-picture-id1297197451?k=20&m=1297197451&s=612x612&w=0&h=84ayL1OEpSeinERb_QWOeaUGsvc-srz4R152mVjMDMk=);
+  animation-delay: 14s;
+}
+
+.card_part.card_part-four {
+  z-index: 4;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_yJTFXU407SuKRGeNMvskFjoHisN38DQfcDB6Z4MxqYPMfvXhfz6WkgUXLF559QkG5xE&usqp=CAU);
+  animation-delay: 21s;
+}
+
+
+@keyframes opaqTransition {
+  3% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(0);
+  }
+
+  28% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .s1 {
