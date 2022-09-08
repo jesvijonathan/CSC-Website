@@ -792,7 +792,7 @@ button:hover {
   background-color: #000000;
   background-color: #000000;
   height: fit-content;
-  padding-bottom: 10%;
+  padding-bottom: 0%;
 }
 
 .s4 {
@@ -1037,6 +1037,12 @@ button:hover {
   font-weight: 100;
   color: rgba(255, 255, 255, 0.7);
   bottom: 0%;
+}
+
+.ano0 {
+  padding-top: 0vw;
+
+  padding-bottom: 4vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1337,11 +1343,17 @@ button:hover {
   }
 
   .con_live_text {
-    transform: translate(-50%, -177%);
+    transform: translate(-50%, -100%);
   }
 
   .ser0 {
     padding: 6vw;
     padding-bottom: 6vw;
+  }
+
+  .ano0 {
+    padding-top: 9vw;
+
+    padding-bottom: 7vw;
   }
 }
