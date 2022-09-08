@@ -1022,11 +1022,7 @@ button:hover {
 
 }
 
-.con_live:hover+.con_live_text {
 
-  color: rgba(255, 255, 255, 1);
-  font-weight: 500;
-}
 
 .con_live_text {
   text-align: center;
@@ -1364,4 +1360,8 @@ button:hover {
   }
 }
 
-.media_1 {}
+
+.media_1:hover .con_live_text {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
