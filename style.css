@@ -1416,12 +1416,12 @@ button:hover {
     text-align: center;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -250%);
+    transform: translate(-50%, 0%);
     width: 56vw;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.7);
-    bottom: 0%;
-    font-size: 14px;
+    font-size: 13px;
+    top: 74%;
 
   }
 
