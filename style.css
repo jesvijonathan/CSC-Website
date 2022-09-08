@@ -1098,10 +1098,11 @@ button:hover {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 56vw;
-  font-weight: 100;
-  color: rgba(255, 255, 255, 0.7);
-  bottom: 5vw;
+  /* width: 56vw; */
+  /* font-weight: 100; */
+  /* color: rgba(255, 255, 255, 0.7); */
+  /* bottom: 5vw; */
+  top: 80%;
 }
 
 .ano0 {
