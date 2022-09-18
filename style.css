@@ -1735,8 +1735,8 @@ button:hover {
   }
 
   .sprew {
-    height: 4vh;
-    width: 4vh;
+    height: 3.5vh;
+    width: 3.5vh;
     border-radius: 4px;
     filter: brightness(40%);
 
@@ -1754,7 +1754,7 @@ button:hover {
     align-content: center;
     justify-content: space-between;
     align-items: center;
-    gap: 3vw;
+    gap: 2vw;
     bottom: 4rem;
     left: initial;
     background: rgba(233, 233, 233, 0.295);
