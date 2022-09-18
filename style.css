@@ -1668,7 +1668,7 @@ button:hover {
   }
 
   .slddesc {
-    top: 10vh;
+    margin-top: 6%;
     color: #f6f6f6e1;
     font-family: 'Orienta', sans-serif;
     font-size: 90%;
@@ -1676,6 +1676,8 @@ button:hover {
     width: 100%;
     font-weight: 200;
     background: rgba(41, 41, 41, 0.199);
+
+    font-size: 77%;
   }
 
   .sldhead {
