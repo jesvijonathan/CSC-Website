@@ -1330,7 +1330,18 @@ button:hover {
   .s4 {
     height: 70%;
     min-height: 0px;
+    background-color: #000000;
+
   }
+
+  .s44 {
+
+    height: 70%;
+    min-height: 0px;
+    background-color: #000000;
+    height: fit-content;
+  }
+
 
   .s4 .ano0 {
     padding-top: 10%;
@@ -1672,7 +1683,7 @@ button:hover {
     color: #f6f6f6e1;
     font-family: 'Orienta', sans-serif;
     font-size: 90%;
-    padding: 3% 4%;
+    padding: 3% 9%;
     width: 100%;
     font-weight: 200;
     background: rgba(41, 41, 41, 0.199);
@@ -1696,6 +1707,10 @@ button:hover {
     filter: brightness(50%);
   }
 
+  .mySlides {
+    width: 77%;
+  }
+
   .numbertext {
     text-align: center;
     width: 100%;
@@ -1704,6 +1719,9 @@ button:hover {
   .sldhead {
     top: 10%;
     line-height: initial;
+    padding: 1% 9%;
+    border-radius: 0px 0px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.29) 30%, transparent 100%);
   }
 
   .slddont {
