@@ -1217,10 +1217,7 @@ button:hover {
   filter: brightness(100%);
 }
 
-.spactive {
 
-  filter: brightness(100%)
-}
 
 .slide_sel ul {
 
@@ -1331,7 +1328,7 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
   .s4 {
-    height: 60%;
+    height: 70%;
     min-height: 0px;
   }
 
@@ -1694,6 +1691,7 @@ button:hover {
     left: 0;
     margin: 0;
     height: 30rem;
+    filter: brightness(50%);
   }
 
   .sldhead {
@@ -1733,8 +1731,19 @@ button:hover {
     gap: 3vw;
     bottom: 4rem;
     left: initial;
-    background: rgba(194, 194, 194, 0.2);
+    background: rgba(233, 233, 233, 0.295);
     padding: 2%;
     border-radius: 2px;
+    filter: brightness(100%);
+    border-radius: 7px;
   }
+
+  .slide_sel img {
+    border: 1px solid rgba(255, 255, 255, 0.479);
+  }
+}
+
+.spactive {
+
+  filter: brightness(100%)
 }
