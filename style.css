@@ -1268,7 +1268,7 @@ button:hover {
 }
 
 .slddesc {
-  top: 10vh;
+  margin-top: 0%;
   color: #f6f6f6e1;
   font-family: 'Orienta', sans-serif;
   font-size: 90%;
@@ -1693,7 +1693,7 @@ button:hover {
     left: 0;
     margin: 0;
     height: 30rem;
-    filter: brightness(50%) grayscale(0.2);
+    filter: brightness(50%);
   }
 
   .numbertext {
