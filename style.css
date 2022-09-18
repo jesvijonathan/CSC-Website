@@ -1111,6 +1111,210 @@ button:hover {
   padding-bottom: 4vw;
 }
 
+
+.media_1:hover .con_live_text {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
+
+
+.anncontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mySlides {
+  width: 84%;
+  display: none;
+}
+
+.slactive {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.nukbertext {}
+
+.anncontainer img {
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.sprev,
+.snext {
+  cursor: pointer;
+  /* width: auto; */
+  color: white;
+  font-weight: bold;
+  font-size: 1.4vw;
+  user-select: none;
+}
+
+.sprev {}
+
+.snext {
+  margin-left: 1vw;
+
+  margin-right: 1vw;
+  color: #fff;
+}
+
+.snext {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.sprev:hover,
+.snext:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.s7 {
+  background-color: #000000;
+  height: max-content;
+}
+
+.slide_sel {
+  border: 0px solid white;
+  bottom: 0px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+  bottom: 4rem;
+  left: 12%;
+  background: rgba(136, 136, 136, 0.2);
+  padding: 1%;
+  border-radius: 2px;
+}
+
+.sprew {
+  height: 4vw;
+  width: 4vw;
+  border-radius: 4px;
+  filter: brightness(40%);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sprew:hover {
+  filter: brightness(100%);
+}
+
+.spactive {
+
+  filter: brightness(100%)
+}
+
+.slide_sel ul {
+
+  list-style-type: disc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1vw;
+}
+
+.slide_sel ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.spactive {
+  list-style-type: disc;
+}
+
+.slddont {
+  position: absolute;
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  color: #fff;
+  top: 25%;
+}
+
+.sldhead {
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 180%;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0 0 0;
+  padding: 1% 4%;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.29) 50%, transparent 100%);
+  ;
+  width: 70%;
+}
+
+.slddesc {
+  top: 10vh;
+  color: #f6f6f6e1;
+  font-family: 'Orienta', sans-serif;
+  font-size: 90%;
+  padding: 3% 4%;
+  width: 80%;
+  font-weight: 200;
+  background: rgba(41, 41, 41, 0.199);
+}
+
+.sldvenue {
+  font-size: 80%;
+  text-decoration: overline;
+}
+
+.sldtime {
+  font-size: 80%;
+  text-decoration: overline;
+  line-height: 1.8rem;
+}
+
+.sldless {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 3% 4%;
+  display: none;
+}
+
+.sldbutton {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1% 3%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out
+}
+
+.sldbutton:hover {
+  color: #161616;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 @media only screen and (max-width: 768px) {
   .burger {
     opacity: 1;
@@ -1437,128 +1641,71 @@ button:hover {
     padding-top: 10vh;
     padding-bottom: 0vw;
   }
-}
 
+  .slddesc {
+    top: 10vh;
+    color: #f6f6f6e1;
+    font-family: 'Orienta', sans-serif;
+    font-size: 90%;
+    padding: 3% 4%;
+    width: 100%;
+    font-weight: 200;
+    background: rgba(41, 41, 41, 0.199);
+  }
 
-.media_1:hover .con_live_text {
-  color: rgba(255, 255, 255, 1);
-  font-weight: 500;
-}
+  .sldhead {
+    width: initial;
+  }
 
+  .anncontainer {
+    width: 100%;
+  }
 
-.anncontainer {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  align-items: center;
-  justify-content: flex-start;
-}
+  .mySlides img {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    height: 30rem;
+  }
 
-.mySlides {
-  width: 84%;
-  display: none;
-}
+  .sldhead {
+    top: 10%;
+    line-height: initial;
+  }
 
-.slactive {
-  display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
+  .slddont {
+    top: initial;
+    margin-top: 10%;
+  }
 
-.nukbertext {}
+  .s7 .ano0 {
+    padding-bottom: 10vw;
+  }
 
-.anncontainer img {
-  background-size: contain;
-  vertical-align: middle;
-}
+  .sprew {
+    height: 4vh;
+    width: 4vh;
+    border-radius: 4px;
+    filter: brightness(40%);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
 
-.sprev,
-.snext {
-  cursor: pointer;
-  /* width: auto; */
-  color: white;
-  font-weight: bold;
-  font-size: 1.4vw;
-  user-select: none;
-}
-
-.sprev {}
-
-.snext {
-  margin-left: 1vw;
-
-  margin-right: 1vw;
-  color: #fff;
-}
-
-.snext {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.sprev:hover,
-.snext:hover {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-
-.s7 {
-  background-color: #000000;
-  height: max-content;
-}
-
-.slide_sel {
-  border: 0px solid white;
-  bottom: 0px;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1vw;
-  bottom: 4rem;
-  left: 12%;
-  background: rgba(78, 78, 78, 0.404);
-  padding: 1%;
-  border-radius: 2px;
-}
-
-.sprew {
-  height: 4vw;
-  width: 4vw;
-  border-radius: 4px;
-
-}
-
-.slide_sel ul {
-
-  list-style-type: disc;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  column-gap: 1vw;
-}
-
-.slide_sel ul li {
-  list-style-type: circle;
-  list-style-position: inside;
-}
-
-.spactive {
-  list-style-type: disc;
-}
-
-.slddont {
-  position: absolute;
+  .slide_sel {
+    border: 0px solid white;
+    bottom: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+    bottom: 4rem;
+    left: initial;
+    background: rgba(194, 194, 194, 0.2);
+    padding: 2%;
+    border-radius: 2px;
+  }
 }

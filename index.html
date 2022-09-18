@@ -474,60 +474,151 @@ burger()
     <div class="topic-head ano0" data-aos="zoom-in" data-aos-duration="400"  >Announcement</div>
 
     <div class="anncontainer">
-      <div class="mySlides slactive">
+      <div class="mySlides slactive" id="sp11">
         <div class="numbertext">1 / 6</div>
         <img src="https://picsum.photos/seed/women/1280/720" style="width:100%">
       </div>
     
-      <div class="mySlides">
+      <div class="mySlides" id="sp22">
         <div class="numbertext">2 / 6</div>
         <img src="https://picsum.photos/seed/man/1280/720" style="width:100%">
       </div>
     
-      <div class="mySlides">
+      <div class="mySlides" id="sp33">
         <div class="numbertext">3 / 6</div>
         <img src="https://picsum.photos/seed/glass/1280/720" style="width:100%">
       </div>
         
-      <div class="mySlides">
+      <div class="mySlides" id="sp44">
         <div class="numbertext">4 / 6</div>
         <img src="https://picsum.photos/seed/chicken/1280/720" style="width:100%">
       </div>
     
-      <div class="mySlides">
+      <div class="mySlides" id="sp55">
         <div class="numbertext">5 / 6</div>
         <img src="https://picsum.photos/seed/cat/1280/720" style="width:100%">
       </div>
         
-      <div class="mySlides">
+      <div class="mySlides" id="sp66">
         <div class="numbertext">6 / 6</div>
-        <img src="https://picsum.photos/seed/dog/200/300" style="width:100%">
+        <img src="https://picsum.photos/seed/dog/1280/720" style="width:100%">
       </div>
         
     
       <div class="slide_sel">
-        <img class="sprew" src="https://picsum.photos/seed/women/1280/720" >
-        <img class="sprew" src="https://picsum.photos/seed/man/1280/720" >
-        <img class="sprew" src="https://picsum.photos/seed/glass/1280/720" >
-        <img class="sprew" src="https://picsum.photos/seed/chicken/1280/720" >
-        <img class="sprew" src="https://picsum.photos/seed/cat/1280/720" >
-        <img class="sprew" src="https://picsum.photos/seed/dog/1280/720" >
-        <a class="snext" onclick="plusSlides(1)">❯</a>
+        <img id="sp1" class="sprew spactive" src="https://picsum.photos/seed/women/1280/720" onclick="selectslide(this.id,1)"> 
+        <img id="sp2" class="sprew" src="https://picsum.photos/seed/man/1280/720" onclick="selectslide(this.id,2)">
+        <img id="sp3" class="sprew" src="https://picsum.photos/seed/glass/1280/720" onclick="selectslide(this.id,3);">
+        <img id="sp4" class="sprew" src="https://picsum.photos/seed/chicken/1280/720" onclick="selectslide(this.id,4)">
+        <img id="sp5" class="sprew" src="https://picsum.photos/seed/cat/1280/720" onclick="selectslide(this.id,5)">
+        <img id="sp6" class="sprew" src="https://picsum.photos/seed/dog/1280/720" onclick="selectslide(this.id,6)">
+        
 
        
       
     </div>
     <!--<ul class="spactive" style="    margin-left: 1rem"> <li></li><li></li></ul> -->
-    <div class="slddont"><div class="sldhead">Sunday Class</div>
-    <div class="slddesc">lkadblkah klasdhnlakdh alksjdhbalkjsdhblaksdhlkajshd alksdhbl lkadblkah klasdhnlakdh alksjdhbalkjsdhblaksdhlkajshd alksdhb <br>
-    lkadblkah klasdhnlakdh alksjdhbalkjsdhblaksdhlkajshd alksdhb</div>
+    <div class="slddont"><div class="sldhead" id="sldhead">Sasd</div>
+    
+    <div class="slddesc" id="slddesc"></div>
+     
     <div class="sldmore"></div>
-    <div class="sldvenue">Christhava Sangam Church - Nagercoil</div>
-  <div class="sldtime"></div>9:00am - 12:00pm</div>
+<div class="sldless">
+    <div class="sldvenue" id="sldvenue">asdasdasd</div>
+    <a class="sldbutton" id="sldbutton" target="_blank" href="">Contact</a>
+</div>
+    </div>
   </div>
 </div>
+  <!-- var slides = document.getElementsById("sp2").className += " sactive"; 
+  
+  var sact = document.getElementsByClassName("mySlides");
+      sact.className = sact.className.replace(" slactive", "");
+    
+    
+      $('.document-wrapper').attr('class', 'document-wrapper');
 
-  </section>
+    -->
+
+<script>
+  function removeClass(id)
+  {
+   
+   
+
+   
+  }
+  </script>
+
+  <script>
+
+    var sxy = 1;
+
+    
+  function selectslide(id,sxy){
+
+    document.querySelector('#sp1').classList.remove("spactive");document.querySelector('#sp2').classList.remove("spactive");
+    document.querySelector('#sp3').classList.remove("spactive");
+    document.querySelector('#sp4').classList.remove("spactive");
+    document.querySelector('#sp5').classList.remove("spactive");
+    document.querySelector('#sp6').classList.remove("spactive");
+  
+    var e = document.getElementById(id);
+    e.classList.add("spactive");
+
+    document.querySelector('#sp11').classList.remove("slactive");document.querySelector('#sp22').classList.remove("slactive");
+    document.querySelector('#sp33').classList.remove("slactive");
+    document.querySelector('#sp44').classList.remove("slactive");
+    document.querySelector('#sp55').classList.remove("slactive");
+    document.querySelector('#sp66').classList.remove("slactive");
+
+
+    if(sxy==1){
+      document.querySelector('#sp11').classList.add("slactive");
+      document.getElementById('sldhead').innerHTML = "Sunday Class";
+      document.getElementById('slddesc').innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>adblkah klasdhnlakdh alksjdhbalkjsdhblaksdhlkajshd alksdhbl lkadblkah klasdhnlakdh ";
+      }  
+    else if(sxy==2){
+      document.querySelector('#sp22').classList.add("slactive");
+
+      document.getElementById('sldhead').innerHTML = "Youth Meeting";
+      
+      document.getElementById('slddesc').innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veasd commodo consequa <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>adblkah klasdhnlakdh alksjdhbalkjsdhblaksdhlkajshd alksdhbl lkadblkah klasdhnlakdh ";
+        }
+
+    else if(sxy==3){
+      document.querySelector('#sp33').classList.add("slactive");
+      document.getElementById('sldhead').innerHTML = "Fill In THe Blanks";
+      
+      document.getElementById('slddesc').innerHTML = "Loreipsum dolor sit amet, consectetur adipiscing elit, sedo eiusmod tempor incididunt ut labore et dolore magnaliqua. Ut enim ad minim veasd commodo consequa <brLorem ipsum dolor sit amet, consectetur adipido consequat.<br><br>adblkah klasdhnlakdalksjdhbalkjsdhblaksdhlkajshd alksdhbl lkadblkaklasdhnlakdh ";  
+    }
+    else if(sxy==4){
+      document.querySelector('#sp44').classList.add("slactive");
+      document.getElementById('sldhead').innerHTML = "Random Stuff Here";
+      
+      document.getElementById('slddesc').innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntadlskjalskdjalskdjalksdjlak laksdj na aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>adblkah klasdhnlakdh alksjdhbalkjsdhblaksdhlkajshd alksdhbl lkadblkah klasdhnlakdh ";
+    }
+    else if(sxy==5){document.querySelector('#sp55').classList.add("slactive");
+      document.getElementById('sldhead').innerHTML = "Bible Studies";
+      
+      document.getElementById('slddesc').innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veasd commodo consequa <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu";
+        }
+        else if(sxy==6){document.querySelector('#sp66').classList.add("slactive");
+      document.getElementById('sldhead').innerHTML = "Prayer";
+
+      document.getElementById('slddesc').innerHTML = "Lor ipsum dolor sit amet, consectetur adipiscing elit, s do eiusmod tempor incididunt ut labore et dolore mag aliqua. Ut enim ad minim veasd commodo consequa <b Lorem ipa<br>sum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incididunt ut labore   dolore magna aliqua. Ut enim ad minim veniam, qu";
+        }
+      
+  };
+  
+
+
+  </script>
+
+
+  
+
+</section>
 
   <section class="section s5"> <div class="con_lm">
     <div class="csc_l">Christhava Sangam Church</div>
