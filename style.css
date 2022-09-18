@@ -1316,7 +1316,34 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+.s3 .ano {
+  padding-top: 0px;
+}
+
+.s3 {
+  padding-bottom: 10%;
+  min-height: 0px;
+}
+
+.s7 .ano0 {
+  padding-bottom: 8%;
+}
+
 @media only screen and (max-width: 768px) {
+  .s4 {
+    height: 60%;
+    min-height: 0px;
+  }
+
+  .s4 .ano0 {
+    padding-top: 10%;
+    padding-bottom: 0vw;
+  }
+
+  .s3 .ano {
+    padding-top: inherit;
+  }
+
   .burger {
     opacity: 1;
     z-index: 5;
@@ -1680,7 +1707,7 @@ button:hover {
   }
 
   .s7 .ano0 {
-    padding-bottom: 10vw;
+    padding-bottom: 21%;
     padding-top: 0;
   }
 
