@@ -1704,7 +1704,7 @@ button:hover {
     left: 0;
     margin: 0;
     height: 30rem;
-    filter: brightness(50%);
+    filter: brightness(50%) grayscale(0.3);
   }
 
   .mySlides {
