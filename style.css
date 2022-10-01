@@ -1126,6 +1126,8 @@ button:hover {
   align-content: center;
   align-items: center;
   justify-content: flex-start;
+
+  display: none;
 }
 
 .mySlides {
@@ -1772,4 +1774,95 @@ button:hover {
 .spactive {
 
   filter: brightness(100%)
+}
+
+blockquote {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Tahoma, sans-serif;
+  font-size: 3vw;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote h1 {
+  font-size: 5vw;
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+blockquote p::before,
+blockquote p::after {
+  content: "“";
+  font-family: Georgia;
+  font-size: 7vw;
+  margin: -2vw 0 0 -4vw;
+  position: absolute;
+  opacity: 0.5;
+}
+
+blockquote p::after {
+  content: "”";
+  margin: -1vw -4vw 0 0;
+}
+
+blockquote cite {
+  font-size: 2vw;
+}
+
+
+.qsho {
+  margin-top: 20%;
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  animation: reveal 20s ease-in-out infinite;
+  width: 70%;
+}
+
+
+@keyframes reveal {
+  1% {
+
+    opacity: 1;
+  }
+
+  20% {
+
+    opacity: 1;
+  }
+
+  21% {
+
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.qdis {
+  opacity: 1;
+}
+
+.ba {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bae {}
+
+.s7 {
+  height: fit-content;
+  min-height: 32rem;
+  max-height: 20vw;
 }
